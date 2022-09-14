@@ -8,7 +8,7 @@ export default function Header(params) {
         <div className={css.header}>
             {/* logo side */}
             <div className={css.logo}>
-                <Image src={Logo} alt=""/>
+                <Image src={Logo} width={50} height={50} alt=""/>
                 <span>Fudo</span>
             </div>
 
